@@ -1,0 +1,43 @@
+
+:root {
+  /* COLORS */
+  --color-blue: #568ffc;
+  --color-black: #1d1d1b;
+  --color-white: #fff;
+
+  /* FONTS */
+  /*--fint-size-default: 13px;*/
+  --font-size-xs: 2.2rem;
+  --font-size-xs-header: 1.3rem;
+  --font-size-xs-small: 1.6rem;
+  /*--font-size-sm-header: 13px;*/
+  --font-family-sans-serif:
+    Helvetica,
+    Arial,
+    sans-serif;
+  --font-family-serif:
+    Plantin,
+    Times,
+    'Times New Roman',
+    serif;
+  /*--font-family-default:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';*/
+  --font-family-heading: mallory, var(--font-family-default);
+
+  /* ANIMATION */
+  --transition-time: 150ms;
+}
+
+/*@custom-media --vert-small (min-width: 370px) and (min-height: 650px);*/
+@custom-media --small (min-width: 480px);
+@custom-media --medium (min-width: 700px);
+@custom-media --large (min-width: 960px);

@@ -1,0 +1,21 @@
+@import '../_variables.css';
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.inner {
+  max-width: 66.66667%
+}
+
+.caption {
+  max-width: 66.66667%;
+  text-align: left;
+  font-size: var(--font-size-xs-small);
+}

@@ -1,0 +1,105 @@
+@import '../_variables.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-black);
+  font-family: var(--font-family-serif);
+  font-size: var(--font-size-xs);
+  line-height: 1.14;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (--medium) {
+    /*font-size: var(--font-size-md);*/
+  }
+}
+
+.text--italic {
+  font-style: italic;
+}
+
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-family: var(--font-family-heading);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  & + p {
+    margin-top: 0.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.5625rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 1.125rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h3,
+h6 {
+  font-weight: 600;
+}
+
+h4,
+h5 {
+  font-weight: normal;
+}
+
+ol,
+ul {
+  padding-left: 1.25rem;
+}
+li {
+  margin-top: 0.5rem;
+}
+
+a {
+  background-color: transparent;
+  color: color(var(--color-purple) blackness(+ 10%));
+  padding: 0 0.125rem;
+  transition: all var(--transition-time) linear;
+
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: var(--color-purple);
+    border-radius: 0.25rem;
+    color: var(--color-lightest);
+    outline: 0;
+    text-decoration: none;
+  }
+}*/
